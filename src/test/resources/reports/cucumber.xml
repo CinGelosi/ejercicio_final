@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="6.492">
+<testcase classname="Swagger - Pet" name="Add a new pet" time="2.596">
+<system-out><![CDATA[Given a pet with name "Dominic" and status "available"......................passed
+When it is decided to add in the system.....................................passed
+Then the status code is 200.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Swagger - Pet" name="Find pet" time="0.799">
+<system-out><![CDATA[Given a status "available"..................................................passed
+When i try to find a pet....................................................passed
+Then the status code is 200.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Swagger - Pet" name="Find pet 2" time="0.588">
+<system-out><![CDATA[Given a status "pending"....................................................passed
+When i try to find a pet....................................................passed
+Then the status code is 200.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Swagger - Pet" name="Find pet 3" time="0.573">
+<system-out><![CDATA[Given a status "sold".......................................................passed
+When i try to find a pet....................................................passed
+Then the status code is 200.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Swagger - Pet" name="Update pet" time="0.572">
+<system-out><![CDATA[Given an id "9223372036854334490" and a new name "Dominic"..................passed
+When i try update the pet...................................................passed
+Then the status code is 200.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Swagger - Pet" name="Find pet by id" time="0.559">
+<system-out><![CDATA[Given an id "9223372036854334490"...........................................passed
+When i try to find a pet by id "9223372036854334490"........................passed
+Then the status code is 200.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Swagger - Pet" name="Delete pet" time="0.544">
+<system-out><![CDATA[Given an id "9223372036854334490"...........................................passed
+When i try to delete a pet by "9223372036854334490".........................passed
+Then the status code is 200.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
